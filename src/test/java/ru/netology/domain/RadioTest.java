@@ -41,7 +41,7 @@ class RadioTest {
         assertEquals(1, clickNext);
     }
 
-    //проверяем работу кнопки Prew, переключение с 0 на 9
+    //проверяем работу кнопки Prev, переключение с 0 на 9
     @Test
     void clickPrevWith0on9() {
         Radio radio1 = new Radio();
@@ -50,7 +50,7 @@ class RadioTest {
         assertEquals(9, clickPrev);
     }
 
-    // проверяем работу кнопки Prew, валидное переключение с 9 на 8
+    // проверяем работу кнопки Prev, валидное переключение с 9 на 8
     @Test
     void clickPrevWith9on8() {
         Radio radio1 = new Radio();
